@@ -3,9 +3,9 @@ import React from "react";
 import "./Billboard.css"
 
 const Billboard = () => (
-    <div className="background">
+    <div className="background container">
         <div>
-            <p>Chicago-based</p>
+            <h1>Chicago-based</h1>
         </div>
     </div>
 )

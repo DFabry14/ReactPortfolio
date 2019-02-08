@@ -1,18 +1,17 @@
 .style {
     position: fixed;
     top: 0px;
-    height: 100px;
-    background-color: white;
+    height: 800px;
+    background-image: url("./cityview.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
     margin-top: 0px;
     width: 100%;
-    border-color: grey;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
     color: grey;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
     font-size: 3em;
     text-align: center;
     font-stretch: wider;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
 };
