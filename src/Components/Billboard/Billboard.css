@@ -1,0 +1,5 @@
+.background {
+    height: 800px;
+    border-bottom: solid, red;
+    background: "src/Images/cityview.jpg"
+}
