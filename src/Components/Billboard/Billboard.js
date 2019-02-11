@@ -6,12 +6,12 @@ const Billboard = () => (
     <div>
         <Slider>
             <Slide
-                src="./cityview.jpg"
+                src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/cityview.jpg?raw=true"
                 title="This is our big Tagline!">
                 Here's our small slogan.
   </Slide>
             <Slide
-                src='src/Components/Billboard/skyline.jpg'
+                src='https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/skyline.jpg?raw=true'
                 title="Left aligned Caption"
                 placement="right">
                 Here's our small slogan.
