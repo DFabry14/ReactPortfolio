@@ -1,23 +1,28 @@
 import React from "react";
-import { Parallax } from "react-materialize"
+import { Slider, Slide } from "react-materialize"
 import "./Billboard.css"
 
 const Billboard = () => (
     <div>
-        <Parallax imageSrc="" />
-        <div className="section white">
-            <div className="row container">
-                <h2 className="header">Chicago-based web developer</h2>
-                <p className="grey-text text-darken-3 lighten-3">Dan is a Chicago-based web developer and recent graduate of the Northwestern University School of Professional Studies Full-Stack Web Development Course. Please see below for some examples of his work.</p>
-            </div>
-        </div>
-        <Parallax imageSrc="" />
-        <div className="section white">
-            <div className="row container">
-                <h2 className="header">Chicago-based web development</h2>
-                <p className="grey-text text-darken-3 lighten-3">Dan is a Chicago-based web developer and recent graduate of the Northwestern University School of Professional Studies Full-Stack Web Development Course. Please see below for some examples of his work.</p>
-            </div>
-        </div>
+        <Slider>
+            <Slide
+                src="./cityview.jpg"
+                title="This is our big Tagline!">
+                Here's our small slogan.
+  </Slide>
+            <Slide
+                src='src/Components/Billboard/skyline.jpg'
+                title="Left aligned Caption"
+                placement="right">
+                Here's our small slogan.
+  </Slide>
+            <Slide
+                src="http://lorempixel.com/580/250/nature/3"
+                title="Right aligned Caption"
+                placement="right">
+                Here's our small slogan.
+  </Slide>
+        </Slider>
     </div>
 )
 
