@@ -7,7 +7,7 @@ const Billboard = () => (
         <Slider>
             <Slide
                 src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/cityview.jpg?raw=true"
-                title="This is our big Tagline!">
+                title="Chicago-based Web Developer">
                 Here's our small slogan.
   </Slide>
             <Slide
@@ -17,7 +17,7 @@ const Billboard = () => (
                 Here's our small slogan.
   </Slide>
             <Slide
-                src="http://lorempixel.com/580/250/nature/3"
+                src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/river.jpg?raw=true"
                 title="Right aligned Caption"
                 placement="right">
                 Here's our small slogan.
