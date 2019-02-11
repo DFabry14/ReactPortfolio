@@ -1,5 +1,5 @@
 .style {
-    position: fixed;
+    position: absolute;
     top: 0px;
     height: 800px;
     /* background-image: url("./cityview.jpg"); */

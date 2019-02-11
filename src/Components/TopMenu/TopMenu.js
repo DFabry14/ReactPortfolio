@@ -8,6 +8,7 @@ const TopMenu = () => (
             <NavItem target="_blank" href='https://www.linkedin.com/in/dan-fabry/'>LinkedIn</NavItem>
             <NavItem target="_blank" href='https://github.com/DFabry14'>GitHub</NavItem>
             <NavItem target="_blank" href=''>Resume</NavItem>
+            <NavItem target="_blank" href=''>Contact</NavItem>
         </Navbar>
     </div>
 );

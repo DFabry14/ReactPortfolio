@@ -4,23 +4,16 @@ import "./Billboard.css"
 
 const Billboard = () => (
     <div className="container">
-        <Slider>
+        <Slider options={{ fullWidth: true }}>
             <Slide
-                src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/cityview.jpg?raw=true"
-                title="Chicago-based Web Developer">
-  </Slide>
+                src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/cityview.jpg?raw=true">
+            </Slide>
             <Slide
-                src='https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/playpen.jpg?raw=true'
-                title="Left aligned Caption"
-                placement="right">
-                Here's our small slogan.
-  </Slide>
+                src='https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/playpen.jpg?raw=true'>
+            </Slide>
             <Slide
-                src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/river.jpg?raw=true"
-                title="Right aligned Caption"
-                placement="right">
-                Here's our small slogan.
-  </Slide>
+                src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/river.jpg?raw=true">
+            </Slide>
         </Slider>
     </div>
 )
