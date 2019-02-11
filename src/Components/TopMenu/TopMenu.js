@@ -7,7 +7,7 @@ const TopMenu = () => (
         <Navbar brand='Dan Fabry - Web Developer' left>
             <NavItem target="_blank" href='https://www.linkedin.com/in/dan-fabry/'>LinkedIn</NavItem>
             <NavItem target="_blank" href='https://github.com/DFabry14'>GitHub</NavItem>
-            <NavItem target="_blank" href='./TopMenu/Dan Fabry Technical Resume.pdf'>Resume</NavItem>
+            <NavItem target="_blank" href=''>Resume</NavItem>
         </Navbar>
     </div>
 );

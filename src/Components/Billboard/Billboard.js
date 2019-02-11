@@ -3,15 +3,14 @@ import { Slider, Slide } from "react-materialize"
 import "./Billboard.css"
 
 const Billboard = () => (
-    <div>
+    <div className="container">
         <Slider>
             <Slide
                 src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/cityview.jpg?raw=true"
                 title="Chicago-based Web Developer">
-                Here's our small slogan.
   </Slide>
             <Slide
-                src='https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/skyline.jpg?raw=true'
+                src='https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/playpen.jpg?raw=true'
                 title="Left aligned Caption"
                 placement="right">
                 Here's our small slogan.

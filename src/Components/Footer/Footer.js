@@ -7,14 +7,12 @@ const Foot = () => (
         <Footer
             links={
                 <ul>
-                    <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    <li><a className="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/dan-fabry/">LinkedIn</a></li>
+                    <li><a className="grey-text text-lighten-3" target="_blank" href="https://github.com/DFabry14">GitHub</a></li>
+                    <li><a className="grey-text text-lighten-3" target="_blank" href="#!">Resume</a></li>
                 </ul>
             }
-            className='example'
-        >
+            className='example'>
             <h5 className="white-text">More Info</h5>
             <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
         </Footer>
