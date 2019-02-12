@@ -4,7 +4,7 @@ import "./Billboard.css"
 
 const Billboard = () => (
     <div className="container">
-        <Slider options={{ fullWidth: true }}>
+        <Slider>
             <Slide
                 src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/cityview.jpg?raw=true">
             </Slide>
