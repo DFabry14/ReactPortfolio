@@ -10,6 +10,7 @@ const Foot = () => (
                     <li><a className="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/dan-fabry/">LinkedIn</a></li>
                     <li><a className="grey-text text-lighten-3" target="_blank" href="https://github.com/DFabry14">GitHub</a></li>
                     <li><a className="grey-text text-lighten-3" target="_blank" href="#!">Resume</a></li>
+                    <li><a className="grey-text text-lighten-3" target="_blank" href='mailto:dan@DanFabry.tech'>Contact</a></li>
                 </ul>
             }
             className='example'>
