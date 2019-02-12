@@ -14,3 +14,19 @@ img {
     width: auto;
     padding: 15px;
 }
+
+.small {
+    width: 300px;
+    margin-left: 50px;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.font {
+    color: black;
+    font-size: 12px;
+}
+
+.cardpic {
+    object-fit: cover;
+}
