@@ -2,3 +2,10 @@ body {
     padding-top: 65px;
 }
 
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 215px;
+}
+
