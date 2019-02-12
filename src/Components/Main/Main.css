@@ -30,3 +30,13 @@ img {
 .cardpic {
     object-fit: cover;
 }
+
+.clearfix {
+    overflow: auto;
+}
+
+.parallax {
+    width: 91.5%;
+    margin-left: 4.25%;
+    margin-right: 4.25%;
+}

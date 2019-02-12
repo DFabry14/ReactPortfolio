@@ -14,18 +14,18 @@ const Foot = () => (
                 </ul>
             }
             className='example'>
-            {/* <h5 className="white-text">More About Dan</h5> */}
             <Modal
                 header='More About Dan'
                 fixedFooter
-                trigger={<Button>More About Dan</Button>}>
+                trigger={<Button className="button">More About Dan</Button>}>
                 <img className="image" src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/IMG_1528.jpeg?raw=true"></img>
                 <p>Dan is a former professional athlete turned web developer. Born and raised in Chicago, from there he went on to play
         Division I volleyball at Long Beach State, where he earned a Bachelors Degree in Journalism and Communications,
         before playing professionally in Sweden for two seasons. He is a 2018 graduate of the Northwestern University
         Full Stack Web Development Boot Camp where he learned extensively about HTML, CSS, JavaScript, Bootstrap, jQuery,
         Node.js, Express, React, Handlebars, SQL/Sequelize databases, and NoSQL/Mongo databases. He also has a Masters
-        Degree in Sports Management from the University of East London Docklands Business School. Dan currently lives in Chicago's West Loop neighborhood with his girlfriend, Morgan, and their Black Lab, Norman.</p>
+        Degree in Sports Management from the University of East London Docklands Business School. </p>
+        <p>Dan currently lives in Chicago's West Loop neighborhood with his girlfriend, Morgan, and their Black Lab, Norman.</p>
 </Modal>
         </Footer>
     </div>
