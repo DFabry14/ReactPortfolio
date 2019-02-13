@@ -25,44 +25,44 @@ const MainPage = () => (
             <h4 className="headline">Projects</h4>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/ACC.png?raw=true"></CardTitle>} actions={[<a href='http://www.aaronscoffeecorner.org/' target="_blank">Check it out!</a>]}>
-                    <p>Aaron's Coffee Corner - Materialize-based website for the Aaron's Coffee Corner charity. Uses Google Analytics</p>
+                    <p>Website for the Aaron's Coffee Corner charity. Uses Google Analytics</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Planit.png?raw=true"></CardTitle>} actions={[<a href="https://bcs-plan-it.herokuapp.com/" target="_blank">Check it out!</a>]}>
-                    <p>Planit Weekend Planner - Last-minute planner for the upcoming weekend, built with the Eventful API.</p>
+                    <p>Last-minute planner for the upcoming weekend, built with the Eventful API.</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/WorldCup.png?raw=true"></CardTitle>} actions={[<a href="https://dfabry14.github.io/TriviaGame/" target="_blank" >Check it out!</a>]}>
-                    <p>World Cup Trivia Game - Timed trivia game built with Javascript and jQuery.</p>
+                    <p>Timed trivia game built with Javascript and jQuery.</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Burger.png?raw=true"></CardTitle>} actions={[<a href="https://github.com/DFabry14/burger" target="_blank">Check it out!</a>]}>
-                    <p>Eat Da Burger - Full stack MySQL app. Create and "eat" burgers from the database.</p>
+                    <p>Full stack MySQL app. Create and "eat" burgers from the database.</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Crypton.png?raw=true"></CardTitle>} actions={[<a href="https://m0bi.github.io/cryptocurrency-trading/" target="_blank">Check it out!</a>]}>
-                    <p>Crypton - Cryptocurrency tracker, uses API calls to plot data on box and whisker charts.</p>
+                    <p>Cryptocurrency tracker, uses API calls to plot data on box and whisker charts.</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Crystal.png?raw=true"></CardTitle>} actions={[<a href="https://dfabry14.github.io/unit-4-game/" target="_blank">Check it out!</a>]}>
-                    <p>Crystal Game - jQuery-based game that randomly assigns numbers, aim is to add them up to the
+                    <p>jQuery-based game that randomly assigns numbers, aim is to add them up to the
                         goal.</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Psychic.png?raw=true"></CardTitle>} actions={[<a href="https://dfabry14.github.io/Psychic-Game/" target="_blank">Check it out!</a>]}>
-                    <p>Psychic Game - Javascript game that gives you nine guesses to find out a letter chosen
+                    <p>Javascript game that gives you nine guesses to find out a letter chosen
                         randomly by computer.</p>
                 </Card>
             </Col>
             <Col m={7} s={12}>
                 <Card className="small" horizontal header={<CardTitle className="cardpic" image="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/train.png?raw=true"></CardTitle>} actions={[<a href="https://dfabry14.github.io/TrainSchedule/" target="_blank">Check it out!</a>]}>
-                    <p>Train Tracker - Firebase app that shows upcoming train times, also allows adding trains to
+                    <p>Firebase app that shows upcoming train times, also allows adding trains to
                         schedule.</p>
                 </Card>
             </Col>
