@@ -19,6 +19,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://dfabry14.github.io/ReactPortfolio",
   "browserslist": [
     ">0.2%",
     "not dead",
