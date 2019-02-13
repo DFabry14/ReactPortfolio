@@ -10,7 +10,10 @@ const Foot = () => (
                     <li><a className="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/dan-fabry/">LinkedIn</a></li>
                     <li><a className="grey-text text-lighten-3" target="_blank" href="https://github.com/DFabry14">GitHub</a></li>
                     <li><a className="grey-text text-lighten-3" target="_blank" href="#!">Resume</a></li>
-                    <li><a className="grey-text text-lighten-3" target="_blank" href='mailto:dan@DanFabry.tech'>Contact</a></li>
+                    <li><Modal header="Contact Info"  trigger={<p className="grey-text text-lighten-3">Contact</p>}>
+                    <ul><p>Email: <a target="_blank" href='mailto:dan@DanFabry.tech'>Dan@DanFabry.tech</a></p></ul>
+                    <ul>Phone: 1-847-421-5402</ul>
+                    </Modal></li>
                 </ul>
             }
             className='example'>

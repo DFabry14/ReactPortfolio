@@ -5,7 +5,7 @@ import "./Main.css"
 const MainPage = () => (
     <div>
         <h4>Dan is a Chicago-based web developer and recent graduate of the Northwestern University School of Professional Studies Full-Stack Web Development Program.</h4>
-        <Parallax className="Parallax" imageSrc="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/MichiganAve.jpg?raw=true" />
+        <Parallax className="Parallax" imageSrc="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/wrigley.jpeg?raw=true" />
         <div>
             <h4 className="headline" >Skills</h4>
             <img alt="HTML logo" src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Logos/html.png?raw=true"></img>
@@ -20,7 +20,7 @@ const MainPage = () => (
             <img alt="Heroku logo" src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Logos/heroku.png?raw=true"></img>
             <img alt="Handlebars logo" src="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/Logos/handlebars-js.png?raw=true"></img>
         </div>
-        <Parallax className="Parallax" imageSrc="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/east.jpg?raw=true" />
+        <Parallax className="Parallax" imageSrc="https://github.com/DFabry14/ReactPortfolio/blob/master/src/images/oakst.jpeg?raw=true" />
         <div>
             <h4 className="headline">Projects</h4>
             <Col m={7} s={12}>
