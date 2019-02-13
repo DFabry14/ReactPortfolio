@@ -7,12 +7,14 @@ const Foot = () => (
         <Footer
             links={
                 <ul>
-                    <li><a className="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/dan-fabry/">LinkedIn</a></li>
-                    <li><a className="grey-text text-lighten-3" target="_blank" href="https://github.com/DFabry14">GitHub</a></li>
-                    <li><a className="grey-text text-lighten-3" target="_blank" href="#!">Resume</a></li>
-                    <li><Modal header="Contact Info"  trigger={<p className="grey-text text-lighten-3">Contact</p>}>
-                    <ul><p>Email: <a target="_blank" href='mailto:dan@DanFabry.tech'>Dan@DanFabry.tech</a></p></ul>
-                    <ul>Phone: 1-847-421-5402</ul>
+                    {/* <li><a className="grey-text text-lighten-3" target="_blank" href="https://www.linkedin.com/in/dan-fabry/">LinkedIn</a></li>
+                    <li><a className="grey-text text-lighten-3" target="_blank" href="https://github.com/DFabry14">GitHub</a></li> */}
+                    <li><Modal header="Resume" trigger={<p className="grey-text text-lighten-3">Resume</p>}>
+                        <iframe className="iframe" src="https://www.scribd.com/embeds/399588979/content?start_page=1&view_mode=scroll&show_recommendations=false&access_key=key-dMxwQADW5t98UKCM3LJT" data-auto-height="true" data-aspect-ratio="null" scrolling="no" frameborder="0"></iframe>
+                    </Modal></li>
+                    <li><Modal header="Contact Info" trigger={<p className="grey-text text-lighten-3">Contact</p>}>
+                        <ul><p>Email: <a target="_blank" href='mailto:dan@DanFabry.tech'>Dan@DanFabry.tech</a></p></ul>
+                        <ul>Phone: 1-847-421-5402</ul>
                     </Modal></li>
                 </ul>
             }
@@ -28,8 +30,8 @@ const Foot = () => (
         Full Stack Web Development Boot Camp where he learned extensively about HTML, CSS, JavaScript, Bootstrap, jQuery,
         Node.js, Express, React, Handlebars, SQL/Sequelize databases, and NoSQL/Mongo databases. He also has a Masters
         Degree in Sports Management from the University of East London Docklands Business School. </p>
-        <p>Dan currently lives in Chicago's West Loop neighborhood with his girlfriend, Morgan, and their Black Lab, Norman.</p>
-</Modal>
+                <p>Dan currently lives in Chicago's West Loop neighborhood with his girlfriend, Morgan, and their Black Lab, Norman.</p>
+            </Modal>
         </Footer>
     </div>
 )
