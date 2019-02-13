@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-materialize": "^2.6.0",
@@ -11,6 +12,8 @@
     "video-react": "^0.13.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -19,7 +22,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://dfabry14.github.io/ReactPortfolio",
+  "homepage": "https://www.danfabry.tech",
   "browserslist": [
     ">0.2%",
     "not dead",
